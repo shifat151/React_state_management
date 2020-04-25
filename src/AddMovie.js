@@ -24,7 +24,7 @@ const AddMovie = () =>{
             <label for="lname">Price:</label><br></br>
             <input type="text" name="price" value={price} onChange={updatePrice}/>
             <br/>
-            <button>Submit</button>
+            <button>Add Movies</button>
 
         </form>
     );
